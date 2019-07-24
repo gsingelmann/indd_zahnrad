@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<root>
+	<fieldset orientation="row" id="cnt">
+		<fieldset id="sld">
+		  <slider id="x_center" label="Mitte X" />
+		  <slider id="y_center" label="Mitte Y" />
+		  <slider id="notches" label="Zähne" />
+		  <slider id="radius_o" label="Radius außen" />
+		  <slider id="radius_i" label="Radius innen" />
+		  <slider id="taper_o" label="Verjüngung außen" />
+		  <slider id="taper_i" label="Verjüngung innen " />
+		</fieldset>
+		<fieldset orientation="column" id="btns" valign="top">
+			<button id="defaultElement" label="OK" />
+			<button id="cancelElement" label="Abbrechen" />
+		</fieldset>
+	</fieldset>
+</root>
